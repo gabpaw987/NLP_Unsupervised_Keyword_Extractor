@@ -1,0 +1,39 @@
+11:32:23,220 ERROR [MauiModelBuilder] Error running MauiModelBuilder..
+java.lang.Exception: If a controlled vocabulary is used, format of vocabulary required argument (skos or text).
+	at com.entopix.maui.main.MauiModelBuilder.setOptions(MauiModelBuilder.java:379)
+	at com.entopix.maui.main.MauiModelBuilder.main(MauiModelBuilder.java:624)
+	at com.entopix.maui.StandaloneMain.main(StandaloneMain.java:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:53)
+	at java.lang.Thread.run(Unknown Source)
+11:32:23,226 ERROR [MauiModelBuilder] If a controlled vocabulary is used, format of vocabulary required argument (skos or text).
+11:32:23,227 ERROR [MauiModelBuilder] 
+Options:
+
+11:32:23,228 ERROR [MauiModelBuilder] -l <directory name>
+11:32:23,229 ERROR [MauiModelBuilder] 	Specifies name of directory.
+11:32:23,230 ERROR [MauiModelBuilder] -m <model name>
+11:32:23,230 ERROR [MauiModelBuilder] 	Specifies name of model.
+11:32:23,230 ERROR [MauiModelBuilder] -v <vocabulary name>
+11:32:23,231 ERROR [MauiModelBuilder] 	Specifies vocabulary name.
+11:32:23,231 ERROR [MauiModelBuilder] -f <vocabulary format>
+11:32:23,232 ERROR [MauiModelBuilder] 	Specifies vocabulary format (text or skos or none).
+11:32:23,233 ERROR [MauiModelBuilder] -i <document language>
+11:32:23,234 ERROR [MauiModelBuilder] 	Specifies document language (en (default), es, de, fr).
+11:32:23,234 ERROR [MauiModelBuilder] -e <encoding>
+11:32:23,235 ERROR [MauiModelBuilder] 	Specifies encoding.
+11:32:23,235 ERROR [MauiModelBuilder] -z
+11:32:23,235 ERROR [MauiModelBuilder] 	Turns serialization on.
+11:32:23,236 ERROR [MauiModelBuilder] -x <length>
+11:32:23,236 ERROR [MauiModelBuilder] 	Sets the maximum phrase length (default: 5).
+11:32:23,237 ERROR [MauiModelBuilder] -y <length>
+11:32:23,237 ERROR [MauiModelBuilder] 	Sets the minimum phrase length (default: 1).
+11:32:23,237 ERROR [MauiModelBuilder] -o
+11:32:23,238 ERROR [MauiModelBuilder] 	Set the minimum number of occurences (default: 2).
+11:32:23,238 ERROR [MauiModelBuilder] -s <name of stopwords class>
+11:32:23,238 ERROR [MauiModelBuilder] 	Sets the list of stopwords to use (default: StopwordsEnglish).
+11:32:23,239 ERROR [MauiModelBuilder] -t <name of stemmer class>
+11:32:23,239 ERROR [MauiModelBuilder] 	Set the stemmer to use (default: SremovalStemmer).
