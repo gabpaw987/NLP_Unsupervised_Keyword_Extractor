@@ -1,0 +1,2 @@
+# NLP_Unsupervised_Keyword_Extractor
+An unsupervised natural language processing approach to finding the most important semantic concepts from a programming source code documentation. This is used in the whole project of my company to gain an understanding of the source code and bug reports and automatically suggest code areas in the code that are likely to feature a bug to new developers to speed up their bug resolution process if they have never seen the code before.
