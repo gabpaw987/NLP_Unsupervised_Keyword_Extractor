@@ -1,0 +1,300 @@
+0      2016-08-18 11:53:11,222 INFO           uk.ac.shef.dcs.jate.app.AppRIDF  - Indexing corpus from [C:\Users\gabriel.TRN\Downloads\jate-master\testdata\corpus] and perform candidate extraction ...
+80     2016-08-18 11:53:11,302 INFO           uk.ac.shef.dcs.jate.app.AppRIDF  -  [1] files are scanned and will be indexed and analysed.
+9328   2016-08-18 11:53:20,550 WARN  he.lucene.analysis.jate.OpenNLPTokenizer  - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20449, invalid end=20460, termlength=8. See Issue 26 on JATE webpage
+9334   2016-08-18 11:53:20,556 WARN  he.lucene.analysis.jate.OpenNLPTokenizer  - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20685, invalid end=20696, termlength=8. See Issue 26 on JATE webpage
+12716  2016-08-18 11:53:23,938 WARN  he.lucene.analysis.jate.OpenNLPTokenizer  - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20449, invalid end=20460, termlength=8. See Issue 26 on JATE webpage
+12718  2016-08-18 11:53:23,940 WARN  he.lucene.analysis.jate.OpenNLPTokenizer  - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20685, invalid end=20696, termlength=8. See Issue 26 on JATE webpage
+15115  2016-08-18 11:53:26,337 INFO           uk.ac.shef.dcs.jate.app.AppRIDF  - all corpus are indexed with term candidates.
+18395  2016-08-18 11:53:29,617 INFO  .jate.feature.FrequencyTermBasedFBMaster  - Building features using cpu cores=8, total=1058, max per worker=132
+18464  2016-08-18 11:53:29,686 INFO  .jate.feature.FrequencyTermBasedFBMaster  - Complete building features. Total=1058 success=1058
+18479  2016-08-18 11:53:29,701 INFO        uk.ac.shef.dcs.jate.algorithm.RIDF  - Beginning computing RIDF values,, total terms=1058
+18487  2016-08-18 11:53:29,709 INFO        uk.ac.shef.dcs.jate.algorithm.RIDF  - Complete
+18522  2016-08-18 11:53:29,744 INFO           uk.ac.shef.dcs.jate.app.AppRIDF  - Exporting terms to [ridf.json]
+18591  2016-08-18 11:53:29,813 INFO           uk.ac.shef.dcs.jate.app.AppRIDF  - complete.
+2016-08-18 11:53:29 INFO  AppRIDF:498 - complete.
+0      2016-08-18 12:08:02,881 INFO           uk.ac.shef.dcs.jate.app.AppRIDF  - Indexing corpus from [C:\Users\gabriel.TRN\Downloads\jate-master\testdata\corpus] and perform candidate extraction ...
+2016-08-18 12:08:02 INFO  AppRIDF:328 - Indexing corpus from [C:\Users\gabriel.TRN\Downloads\jate-master\testdata\corpus] and perform candidate extraction ...
+64     2016-08-18 12:08:02,945 INFO           uk.ac.shef.dcs.jate.app.AppRIDF  -  [1] files are scanned and will be indexed and analysed.
+2016-08-18 12:08:02 INFO  AppRIDF:331 -  [1] files are scanned and will be indexed and analysed.
+13260  2016-08-18 12:08:16,141 INFO           uk.ac.shef.dcs.jate.app.AppRIDF  - all corpus are indexed with term candidates.
+2016-08-18 12:08:16 INFO  AppRIDF:347 - all corpus are indexed with term candidates.
+19200  2016-08-18 12:08:22,081 INFO  .jate.feature.FrequencyTermBasedFBMaster  - Building features using cpu cores=8, total=556, max per worker=69
+2016-08-18 12:08:22 INFO  FrequencyTermBasedFBMaster:55 - Building features using cpu cores=8, total=556, max per worker=69
+19236  2016-08-18 12:08:22,117 INFO  .jate.feature.FrequencyTermBasedFBMaster  - Complete building features. Total=556 success=556
+2016-08-18 12:08:22 INFO  FrequencyTermBasedFBMaster:64 - Complete building features. Total=556 success=556
+19240  2016-08-18 12:08:22,121 INFO        uk.ac.shef.dcs.jate.algorithm.RIDF  - Beginning computing RIDF values,, total terms=556
+2016-08-18 12:08:22 INFO  RIDF:28 - Beginning computing RIDF values,, total terms=556
+19244  2016-08-18 12:08:22,125 INFO        uk.ac.shef.dcs.jate.algorithm.RIDF  - Complete
+2016-08-18 12:08:22 INFO  RIDF:54 - Complete
+19292  2016-08-18 12:08:22,173 INFO           uk.ac.shef.dcs.jate.app.AppRIDF  - Exporting terms to [ridf_g.json]
+2016-08-18 12:08:22 INFO  AppRIDF:494 - Exporting terms to [ridf_g.json]
+19376  2016-08-18 12:08:22,257 INFO           uk.ac.shef.dcs.jate.app.AppRIDF  - complete.
+2016-08-18 12:08:22 INFO  AppRIDF:498 - complete.
+0      2016-08-18 12:09:22,836 INFO          uk.ac.shef.dcs.jate.app.AppTFIDF  - Indexing corpus from [C:\Users\gabriel.TRN\Downloads\jate-master\testdata\corpus] and perform candidate extraction ...
+2016-08-18 12:09:22 INFO  AppTFIDF:328 - Indexing corpus from [C:\Users\gabriel.TRN\Downloads\jate-master\testdata\corpus] and perform candidate extraction ...
+64     2016-08-18 12:09:22,900 INFO          uk.ac.shef.dcs.jate.app.AppTFIDF  -  [1] files are scanned and will be indexed and analysed.
+2016-08-18 12:09:22 INFO  AppTFIDF:331 -  [1] files are scanned and will be indexed and analysed.
+13118  2016-08-18 12:09:35,954 INFO          uk.ac.shef.dcs.jate.app.AppTFIDF  - all corpus are indexed with term candidates.
+2016-08-18 12:09:35 INFO  AppTFIDF:347 - all corpus are indexed with term candidates.
+16934  2016-08-18 12:09:39,770 INFO  .jate.feature.FrequencyTermBasedFBMaster  - Building features using cpu cores=8, total=556, max per worker=69
+2016-08-18 12:09:39 INFO  FrequencyTermBasedFBMaster:55 - Building features using cpu cores=8, total=556, max per worker=69
+19892  2016-08-18 12:09:42,728 INFO  .jate.feature.FrequencyTermBasedFBMaster  - Complete building features. Total=556 success=556
+2016-08-18 12:09:42 INFO  FrequencyTermBasedFBMaster:64 - Complete building features. Total=556 success=556
+19896  2016-08-18 12:09:42,732 INFO       uk.ac.shef.dcs.jate.algorithm.TFIDF  - Beginning computing TermEx values,, total terms=556
+2016-08-18 12:09:42 INFO  TFIDF:27 - Beginning computing TermEx values,, total terms=556
+19900  2016-08-18 12:09:42,736 INFO       uk.ac.shef.dcs.jate.algorithm.TFIDF  - Complete
+2016-08-18 12:09:42 INFO  TFIDF:38 - Complete
+19932  2016-08-18 12:09:42,768 INFO          uk.ac.shef.dcs.jate.app.AppTFIDF  - Exporting terms to [tfidf_g.json]
+2016-08-18 12:09:42 INFO  AppTFIDF:494 - Exporting terms to [tfidf_g.json]
+19972  2016-08-18 12:09:42,808 INFO          uk.ac.shef.dcs.jate.app.AppTFIDF  - complete.
+2016-08-18 12:09:42 INFO  AppTFIDF:498 - complete.
+0      2016-08-18 12:09:58,452 INFO          uk.ac.shef.dcs.jate.app.AppTFIDF  - Indexing corpus from [C:\Users\gabriel.TRN\Downloads\jate-master\testdata\corpus] and perform candidate extraction ...
+2016-08-18 12:09:58 INFO  AppTFIDF:328 - Indexing corpus from [C:\Users\gabriel.TRN\Downloads\jate-master\testdata\corpus] and perform candidate extraction ...
+100    2016-08-18 12:09:58,552 INFO          uk.ac.shef.dcs.jate.app.AppTFIDF  -  [1] files are scanned and will be indexed and analysed.
+2016-08-18 12:09:58 INFO  AppTFIDF:331 -  [1] files are scanned and will be indexed and analysed.
+8692   2016-08-18 12:10:07,144 WARN  he.lucene.analysis.jate.OpenNLPTokenizer  - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20449, invalid end=20460, termlength=8. See Issue 26 on JATE webpage
+2016-08-18 12:10:07 WARN  OpenNLPTokenizer:128 - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20449, invalid end=20460, termlength=8. See Issue 26 on JATE webpage
+8696   2016-08-18 12:10:07,148 WARN  he.lucene.analysis.jate.OpenNLPTokenizer  - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20685, invalid end=20696, termlength=8. See Issue 26 on JATE webpage
+2016-08-18 12:10:07 WARN  OpenNLPTokenizer:128 - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20685, invalid end=20696, termlength=8. See Issue 26 on JATE webpage
+11070  2016-08-18 12:10:09,522 WARN  he.lucene.analysis.jate.OpenNLPTokenizer  - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20449, invalid end=20460, termlength=8. See Issue 26 on JATE webpage
+2016-08-18 12:10:09 WARN  OpenNLPTokenizer:128 - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20449, invalid end=20460, termlength=8. See Issue 26 on JATE webpage
+11072  2016-08-18 12:10:09,524 WARN  he.lucene.analysis.jate.OpenNLPTokenizer  - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20685, invalid end=20696, termlength=8. See Issue 26 on JATE webpage
+2016-08-18 12:10:09 WARN  OpenNLPTokenizer:128 - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20685, invalid end=20696, termlength=8. See Issue 26 on JATE webpage
+13488  2016-08-18 12:10:11,940 INFO          uk.ac.shef.dcs.jate.app.AppTFIDF  - all corpus are indexed with term candidates.
+2016-08-18 12:10:11 INFO  AppTFIDF:347 - all corpus are indexed with term candidates.
+19465  2016-08-18 12:10:17,917 INFO  .jate.feature.FrequencyTermBasedFBMaster  - Building features using cpu cores=8, total=1058, max per worker=132
+2016-08-18 12:10:17 INFO  FrequencyTermBasedFBMaster:55 - Building features using cpu cores=8, total=1058, max per worker=132
+19509  2016-08-18 12:10:17,961 INFO  .jate.feature.FrequencyTermBasedFBMaster  - Complete building features. Total=1058 success=1058
+2016-08-18 12:10:17 INFO  FrequencyTermBasedFBMaster:64 - Complete building features. Total=1058 success=1058
+19513  2016-08-18 12:10:17,965 INFO       uk.ac.shef.dcs.jate.algorithm.TFIDF  - Beginning computing TermEx values,, total terms=1058
+2016-08-18 12:10:17 INFO  TFIDF:27 - Beginning computing TermEx values,, total terms=1058
+19517  2016-08-18 12:10:17,969 INFO       uk.ac.shef.dcs.jate.algorithm.TFIDF  - Complete
+2016-08-18 12:10:17 INFO  TFIDF:38 - Complete
+19581  2016-08-18 12:10:18,033 INFO          uk.ac.shef.dcs.jate.app.AppTFIDF  - Exporting terms to [tfidf.json]
+2016-08-18 12:10:18 INFO  AppTFIDF:494 - Exporting terms to [tfidf.json]
+19633  2016-08-18 12:10:18,085 INFO          uk.ac.shef.dcs.jate.app.AppTFIDF  - complete.
+2016-08-18 12:10:18 INFO  AppTFIDF:498 - complete.
+0      2016-08-18 12:10:52,331 INFO          uk.ac.shef.dcs.jate.app.AppTFIDF  - Indexing corpus from [C:\Users\gabriel.TRN\Downloads\jate-master\testdata\corpus] and perform candidate extraction ...
+2016-08-18 12:10:52 INFO  AppTFIDF:328 - Indexing corpus from [C:\Users\gabriel.TRN\Downloads\jate-master\testdata\corpus] and perform candidate extraction ...
+80     2016-08-18 12:10:52,411 INFO          uk.ac.shef.dcs.jate.app.AppTFIDF  -  [2] files are scanned and will be indexed and analysed.
+2016-08-18 12:10:52 INFO  AppTFIDF:331 -  [2] files are scanned and will be indexed and analysed.
+9251   2016-08-18 12:11:01,582 WARN  he.lucene.analysis.jate.OpenNLPTokenizer  - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20449, invalid end=20460, termlength=8. See Issue 26 on JATE webpage
+2016-08-18 12:11:01 WARN  OpenNLPTokenizer:128 - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20449, invalid end=20460, termlength=8. See Issue 26 on JATE webpage
+9263   2016-08-18 12:11:01,594 WARN  he.lucene.analysis.jate.OpenNLPTokenizer  - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20685, invalid end=20696, termlength=8. See Issue 26 on JATE webpage
+2016-08-18 12:11:01 WARN  OpenNLPTokenizer:128 - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20685, invalid end=20696, termlength=8. See Issue 26 on JATE webpage
+12205  2016-08-18 12:11:04,536 WARN  he.lucene.analysis.jate.OpenNLPTokenizer  - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20449, invalid end=20460, termlength=8. See Issue 26 on JATE webpage
+2016-08-18 12:11:04 WARN  OpenNLPTokenizer:128 - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20449, invalid end=20460, termlength=8. See Issue 26 on JATE webpage
+12218  2016-08-18 12:11:04,549 WARN  he.lucene.analysis.jate.OpenNLPTokenizer  - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20685, invalid end=20696, termlength=8. See Issue 26 on JATE webpage
+2016-08-18 12:11:04 WARN  OpenNLPTokenizer:128 - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20685, invalid end=20696, termlength=8. See Issue 26 on JATE webpage
+21615  2016-08-18 12:11:13,946 INFO          uk.ac.shef.dcs.jate.app.AppTFIDF  - all corpus are indexed with term candidates.
+2016-08-18 12:11:13 INFO  AppTFIDF:347 - all corpus are indexed with term candidates.
+27432  2016-08-18 12:11:19,763 INFO  .jate.feature.FrequencyTermBasedFBMaster  - Building features using cpu cores=8, total=2218, max per worker=277
+2016-08-18 12:11:19 INFO  FrequencyTermBasedFBMaster:55 - Building features using cpu cores=8, total=2218, max per worker=277
+27480  2016-08-18 12:11:19,811 INFO  .jate.feature.FrequencyTermBasedFBMaster  - Complete building features. Total=2218 success=2218
+2016-08-18 12:11:19 INFO  FrequencyTermBasedFBMaster:64 - Complete building features. Total=2218 success=2218
+27484  2016-08-18 12:11:19,815 INFO       uk.ac.shef.dcs.jate.algorithm.TFIDF  - Beginning computing TermEx values,, total terms=2218
+2016-08-18 12:11:19 INFO  TFIDF:27 - Beginning computing TermEx values,, total terms=2218
+27492  2016-08-18 12:11:19,823 INFO       uk.ac.shef.dcs.jate.algorithm.TFIDF  - Complete
+2016-08-18 12:11:19 INFO  TFIDF:38 - Complete
+27528  2016-08-18 12:11:19,859 INFO          uk.ac.shef.dcs.jate.app.AppTFIDF  - Exporting terms to [tfidf_both.json]
+2016-08-18 12:11:19 INFO  AppTFIDF:494 - Exporting terms to [tfidf_both.json]
+27600  2016-08-18 12:11:19,931 INFO          uk.ac.shef.dcs.jate.app.AppTFIDF  - complete.
+2016-08-18 12:11:19 INFO  AppTFIDF:498 - complete.
+0      2016-08-18 12:11:31,331 INFO          uk.ac.shef.dcs.jate.app.AppTFIDF  - Indexing corpus from [C:\Users\gabriel.TRN\Downloads\jate-master\testdata\corpus] and perform candidate extraction ...
+2016-08-18 12:11:31 INFO  AppTFIDF:328 - Indexing corpus from [C:\Users\gabriel.TRN\Downloads\jate-master\testdata\corpus] and perform candidate extraction ...
+72     2016-08-18 12:11:31,403 INFO          uk.ac.shef.dcs.jate.app.AppTFIDF  -  [2] files are scanned and will be indexed and analysed.
+2016-08-18 12:11:31 INFO  AppTFIDF:331 -  [2] files are scanned and will be indexed and analysed.
+21294  2016-08-18 12:11:52,625 INFO          uk.ac.shef.dcs.jate.app.AppTFIDF  - all corpus are indexed with term candidates.
+2016-08-18 12:11:52 INFO  AppTFIDF:347 - all corpus are indexed with term candidates.
+26905  2016-08-18 12:11:58,236 INFO  .jate.feature.FrequencyTermBasedFBMaster  - Building features using cpu cores=8, total=1361, max per worker=170
+2016-08-18 12:11:58 INFO  FrequencyTermBasedFBMaster:55 - Building features using cpu cores=8, total=1361, max per worker=170
+26953  2016-08-18 12:11:58,284 INFO  .jate.feature.FrequencyTermBasedFBMaster  - Complete building features. Total=1361 success=1361
+2016-08-18 12:11:58 INFO  FrequencyTermBasedFBMaster:64 - Complete building features. Total=1361 success=1361
+26961  2016-08-18 12:11:58,292 INFO       uk.ac.shef.dcs.jate.algorithm.TFIDF  - Beginning computing TermEx values,, total terms=1361
+2016-08-18 12:11:58 INFO  TFIDF:27 - Beginning computing TermEx values,, total terms=1361
+26969  2016-08-18 12:11:58,300 INFO       uk.ac.shef.dcs.jate.algorithm.TFIDF  - Complete
+2016-08-18 12:11:58 INFO  TFIDF:38 - Complete
+27019  2016-08-18 12:11:58,350 INFO          uk.ac.shef.dcs.jate.app.AppTFIDF  - Exporting terms to [tfidf_both_g.json]
+2016-08-18 12:11:58 INFO  AppTFIDF:494 - Exporting terms to [tfidf_both_g.json]
+27095  2016-08-18 12:11:58,426 INFO          uk.ac.shef.dcs.jate.app.AppTFIDF  - complete.
+2016-08-18 12:11:58 INFO  AppTFIDF:498 - complete.
+0      2016-08-18 12:12:26,953 INFO           uk.ac.shef.dcs.jate.app.AppRIDF  - Indexing corpus from [C:\Users\gabriel.TRN\Downloads\jate-master\testdata\corpus] and perform candidate extraction ...
+2016-08-18 12:12:26 INFO  AppRIDF:328 - Indexing corpus from [C:\Users\gabriel.TRN\Downloads\jate-master\testdata\corpus] and perform candidate extraction ...
+64     2016-08-18 12:12:27,017 INFO           uk.ac.shef.dcs.jate.app.AppRIDF  -  [2] files are scanned and will be indexed and analysed.
+2016-08-18 12:12:27 INFO  AppRIDF:331 -  [2] files are scanned and will be indexed and analysed.
+19864  2016-08-18 12:12:46,817 INFO           uk.ac.shef.dcs.jate.app.AppRIDF  - all corpus are indexed with term candidates.
+2016-08-18 12:12:46 INFO  AppRIDF:347 - all corpus are indexed with term candidates.
+23269  2016-08-18 12:12:50,222 INFO  .jate.feature.FrequencyTermBasedFBMaster  - Building features using cpu cores=8, total=1361, max per worker=170
+2016-08-18 12:12:50 INFO  FrequencyTermBasedFBMaster:55 - Building features using cpu cores=8, total=1361, max per worker=170
+23309  2016-08-18 12:12:50,262 INFO  .jate.feature.FrequencyTermBasedFBMaster  - Complete building features. Total=1361 success=1361
+2016-08-18 12:12:50 INFO  FrequencyTermBasedFBMaster:64 - Complete building features. Total=1361 success=1361
+23317  2016-08-18 12:12:50,270 INFO        uk.ac.shef.dcs.jate.algorithm.RIDF  - Beginning computing RIDF values,, total terms=1361
+2016-08-18 12:12:50 INFO  RIDF:28 - Beginning computing RIDF values,, total terms=1361
+23325  2016-08-18 12:12:50,278 INFO        uk.ac.shef.dcs.jate.algorithm.RIDF  - Complete
+2016-08-18 12:12:50 INFO  RIDF:54 - Complete
+23365  2016-08-18 12:12:50,318 INFO           uk.ac.shef.dcs.jate.app.AppRIDF  - Exporting terms to [ridf_both_g.json]
+2016-08-18 12:12:50 INFO  AppRIDF:494 - Exporting terms to [ridf_both_g.json]
+23425  2016-08-18 12:12:50,378 INFO           uk.ac.shef.dcs.jate.app.AppRIDF  - complete.
+2016-08-18 12:12:50 INFO  AppRIDF:498 - complete.
+0      2016-08-18 12:13:26,986 INFO           uk.ac.shef.dcs.jate.app.AppRIDF  - Indexing corpus from [C:\Users\gabriel.TRN\Downloads\jate-master\testdata\corpus] and perform candidate extraction ...
+2016-08-18 12:13:26 INFO  AppRIDF:328 - Indexing corpus from [C:\Users\gabriel.TRN\Downloads\jate-master\testdata\corpus] and perform candidate extraction ...
+68     2016-08-18 12:13:27,054 INFO           uk.ac.shef.dcs.jate.app.AppRIDF  -  [2] files are scanned and will be indexed and analysed.
+2016-08-18 12:13:27 INFO  AppRIDF:331 -  [2] files are scanned and will be indexed and analysed.
+8017   2016-08-18 12:13:35,003 WARN  he.lucene.analysis.jate.OpenNLPTokenizer  - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20449, invalid end=20460, termlength=8. See Issue 26 on JATE webpage
+2016-08-18 12:13:35 WARN  OpenNLPTokenizer:128 - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20449, invalid end=20460, termlength=8. See Issue 26 on JATE webpage
+8021   2016-08-18 12:13:35,007 WARN  he.lucene.analysis.jate.OpenNLPTokenizer  - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20685, invalid end=20696, termlength=8. See Issue 26 on JATE webpage
+2016-08-18 12:13:35 WARN  OpenNLPTokenizer:128 - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20685, invalid end=20696, termlength=8. See Issue 26 on JATE webpage
+10461  2016-08-18 12:13:37,447 WARN  he.lucene.analysis.jate.OpenNLPTokenizer  - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20449, invalid end=20460, termlength=8. See Issue 26 on JATE webpage
+2016-08-18 12:13:37 WARN  OpenNLPTokenizer:128 - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20449, invalid end=20460, termlength=8. See Issue 26 on JATE webpage
+10465  2016-08-18 12:13:37,451 WARN  he.lucene.analysis.jate.OpenNLPTokenizer  - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20685, invalid end=20696, termlength=8. See Issue 26 on JATE webpage
+2016-08-18 12:13:37 WARN  OpenNLPTokenizer:128 - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20685, invalid end=20696, termlength=8. See Issue 26 on JATE webpage
+19603  2016-08-18 12:13:46,589 INFO           uk.ac.shef.dcs.jate.app.AppRIDF  - all corpus are indexed with term candidates.
+2016-08-18 12:13:46 INFO  AppRIDF:347 - all corpus are indexed with term candidates.
+25152  2016-08-18 12:13:52,138 INFO  .jate.feature.FrequencyTermBasedFBMaster  - Building features using cpu cores=8, total=2218, max per worker=277
+2016-08-18 12:13:52 INFO  FrequencyTermBasedFBMaster:55 - Building features using cpu cores=8, total=2218, max per worker=277
+25240  2016-08-18 12:13:52,226 INFO  .jate.feature.FrequencyTermBasedFBMaster  - Complete building features. Total=2218 success=2218
+2016-08-18 12:13:52 INFO  FrequencyTermBasedFBMaster:64 - Complete building features. Total=2218 success=2218
+25248  2016-08-18 12:13:52,234 INFO        uk.ac.shef.dcs.jate.algorithm.RIDF  - Beginning computing RIDF values,, total terms=2218
+2016-08-18 12:13:52 INFO  RIDF:28 - Beginning computing RIDF values,, total terms=2218
+25256  2016-08-18 12:13:52,242 INFO        uk.ac.shef.dcs.jate.algorithm.RIDF  - Complete
+2016-08-18 12:13:52 INFO  RIDF:54 - Complete
+25292  2016-08-18 12:13:52,278 INFO           uk.ac.shef.dcs.jate.app.AppRIDF  - Exporting terms to [ridf_both.json]
+2016-08-18 12:13:52 INFO  AppRIDF:494 - Exporting terms to [ridf_both.json]
+25356  2016-08-18 12:13:52,342 INFO           uk.ac.shef.dcs.jate.app.AppRIDF  - complete.
+2016-08-18 12:13:52 INFO  AppRIDF:498 - complete.
+0      2016-08-18 12:14:19,486 INFO           uk.ac.shef.dcs.jate.app.AppATTF  - Indexing corpus from [C:\Users\gabriel.TRN\Downloads\jate-master\testdata\corpus] and perform candidate extraction ...
+2016-08-18 12:14:19 INFO  AppATTF:328 - Indexing corpus from [C:\Users\gabriel.TRN\Downloads\jate-master\testdata\corpus] and perform candidate extraction ...
+68     2016-08-18 12:14:19,554 INFO           uk.ac.shef.dcs.jate.app.AppATTF  -  [2] files are scanned and will be indexed and analysed.
+2016-08-18 12:14:19 INFO  AppATTF:331 -  [2] files are scanned and will be indexed and analysed.
+8026   2016-08-18 12:14:27,512 WARN  he.lucene.analysis.jate.OpenNLPTokenizer  - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20449, invalid end=20460, termlength=8. See Issue 26 on JATE webpage
+2016-08-18 12:14:27 WARN  OpenNLPTokenizer:128 - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20449, invalid end=20460, termlength=8. See Issue 26 on JATE webpage
+8030   2016-08-18 12:14:27,516 WARN  he.lucene.analysis.jate.OpenNLPTokenizer  - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20685, invalid end=20696, termlength=8. See Issue 26 on JATE webpage
+2016-08-18 12:14:27 WARN  OpenNLPTokenizer:128 - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20685, invalid end=20696, termlength=8. See Issue 26 on JATE webpage
+10441  2016-08-18 12:14:29,927 WARN  he.lucene.analysis.jate.OpenNLPTokenizer  - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20449, invalid end=20460, termlength=8. See Issue 26 on JATE webpage
+2016-08-18 12:14:29 WARN  OpenNLPTokenizer:128 - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20449, invalid end=20460, termlength=8. See Issue 26 on JATE webpage
+10443  2016-08-18 12:14:29,929 WARN  he.lucene.analysis.jate.OpenNLPTokenizer  - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20685, invalid end=20696, termlength=8. See Issue 26 on JATE webpage
+2016-08-18 12:14:29 WARN  OpenNLPTokenizer:128 - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20685, invalid end=20696, termlength=8. See Issue 26 on JATE webpage
+19610  2016-08-18 12:14:39,096 INFO           uk.ac.shef.dcs.jate.app.AppATTF  - all corpus are indexed with term candidates.
+2016-08-18 12:14:39 INFO  AppATTF:347 - all corpus are indexed with term candidates.
+24869  2016-08-18 12:14:44,355 INFO  .jate.feature.FrequencyTermBasedFBMaster  - Building features using cpu cores=8, total=2218, max per worker=277
+2016-08-18 12:14:44 INFO  FrequencyTermBasedFBMaster:55 - Building features using cpu cores=8, total=2218, max per worker=277
+24921  2016-08-18 12:14:44,407 INFO  .jate.feature.FrequencyTermBasedFBMaster  - Complete building features. Total=2218 success=2218
+2016-08-18 12:14:44 INFO  FrequencyTermBasedFBMaster:64 - Complete building features. Total=2218 success=2218
+24937  2016-08-18 12:14:44,423 INFO        uk.ac.shef.dcs.jate.algorithm.ATTF  - Calculating ATTF for 2218 candidate terms.
+2016-08-18 12:14:44 INFO  ATTF:19 - Calculating ATTF for 2218 candidate terms.
+24945  2016-08-18 12:14:44,431 INFO        uk.ac.shef.dcs.jate.algorithm.ATTF  - Complete calculating ATTF
+2016-08-18 12:14:44 INFO  ATTF:38 - Complete calculating ATTF
+24945  2016-08-18 12:14:44,431 INFO           uk.ac.shef.dcs.jate.app.AppATTF  - Complete ATTF term extraction.
+2016-08-18 12:14:44 INFO  AppATTF:109 - Complete ATTF term extraction.
+24991  2016-08-18 12:14:44,477 INFO           uk.ac.shef.dcs.jate.app.AppATTF  - Exporting terms to [attf_both.json]
+2016-08-18 12:14:44 INFO  AppATTF:494 - Exporting terms to [attf_both.json]
+25072  2016-08-18 12:14:44,558 INFO           uk.ac.shef.dcs.jate.app.AppATTF  - complete.
+2016-08-18 12:14:44 INFO  AppATTF:498 - complete.
+0      2016-08-18 12:15:13,377 INFO         uk.ac.shef.dcs.jate.app.AppCValue  - Indexing corpus from [C:\Users\gabriel.TRN\Downloads\jate-master\testdata\corpus] and perform candidate extraction ...
+2016-08-18 12:15:13 INFO  AppCValue:328 - Indexing corpus from [C:\Users\gabriel.TRN\Downloads\jate-master\testdata\corpus] and perform candidate extraction ...
+96     2016-08-18 12:15:13,473 INFO         uk.ac.shef.dcs.jate.app.AppCValue  -  [2] files are scanned and will be indexed and analysed.
+2016-08-18 12:15:13 INFO  AppCValue:331 -  [2] files are scanned and will be indexed and analysed.
+10016  2016-08-18 12:15:23,393 WARN  he.lucene.analysis.jate.OpenNLPTokenizer  - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20449, invalid end=20460, termlength=8. See Issue 26 on JATE webpage
+2016-08-18 12:15:23 WARN  OpenNLPTokenizer:128 - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20449, invalid end=20460, termlength=8. See Issue 26 on JATE webpage
+10037  2016-08-18 12:15:23,414 WARN  he.lucene.analysis.jate.OpenNLPTokenizer  - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20685, invalid end=20696, termlength=8. See Issue 26 on JATE webpage
+2016-08-18 12:15:23 WARN  OpenNLPTokenizer:128 - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20685, invalid end=20696, termlength=8. See Issue 26 on JATE webpage
+13025  2016-08-18 12:15:26,402 WARN  he.lucene.analysis.jate.OpenNLPTokenizer  - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20449, invalid end=20460, termlength=8. See Issue 26 on JATE webpage
+2016-08-18 12:15:26 WARN  OpenNLPTokenizer:128 - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20449, invalid end=20460, termlength=8. See Issue 26 on JATE webpage
+13027  2016-08-18 12:15:26,404 WARN  he.lucene.analysis.jate.OpenNLPTokenizer  - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20685, invalid end=20696, termlength=8. See Issue 26 on JATE webpage
+2016-08-18 12:15:26 WARN  OpenNLPTokenizer:128 - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20685, invalid end=20696, termlength=8. See Issue 26 on JATE webpage
+22846  2016-08-18 12:15:36,223 INFO         uk.ac.shef.dcs.jate.app.AppCValue  - all corpus are indexed with term candidates.
+2016-08-18 12:15:36 INFO  AppCValue:347 - all corpus are indexed with term candidates.
+28307  2016-08-18 12:15:41,684 INFO         uk.ac.shef.dcs.jate.app.AppCValue  - Start CValue term ranking and filtering for whole index ...
+2016-08-18 12:15:41 INFO  AppCValue:72 - Start CValue term ranking and filtering for whole index ...
+28319  2016-08-18 12:15:41,696 INFO  .jate.feature.FrequencyTermBasedFBMaster  - Building features using cpu cores=8, total=2218, max per worker=277
+2016-08-18 12:15:41 INFO  FrequencyTermBasedFBMaster:55 - Building features using cpu cores=8, total=2218, max per worker=277
+28363  2016-08-18 12:15:41,740 INFO  .jate.feature.FrequencyTermBasedFBMaster  - Complete building features. Total=2218 success=2218
+2016-08-18 12:15:41 INFO  FrequencyTermBasedFBMaster:64 - Complete building features. Total=2218 success=2218
+28367  2016-08-18 12:15:41,744 INFO  .jate.feature.TermComponentIndexFBMaster  - Beginning building features (TermComponentIndex). Total terms=2218, cpu cores=8, max per core=277
+2016-08-18 12:15:41 INFO  TermComponentIndexFBMaster:31 - Beginning building features (TermComponentIndex). Total terms=2218, cpu cores=8, max per core=277
+28379  2016-08-18 12:15:41,756 INFO  .jate.feature.TermComponentIndexFBMaster  - Complete building features. Total processed terms = 2218
+2016-08-18 12:15:41 INFO  TermComponentIndexFBMaster:39 - Complete building features. Total processed terms = 2218
+28379  2016-08-18 12:15:41,756 INFO  hef.dcs.jate.feature.ContainmentFBMaster  - Building features using cpu cores=8, total terms=2218, max per worker=277
+2016-08-18 12:15:41 INFO  ContainmentFBMaster:42 - Building features using cpu cores=8, total terms=2218, max per worker=277
+28387  2016-08-18 12:15:41,764 INFO  hef.dcs.jate.feature.ContainmentFBWorker  - Total terms to process=277
+2016-08-18 12:15:41 INFO  ContainmentFBWorker:49 - Total terms to process=277
+28391  2016-08-18 12:15:41,768 INFO  hef.dcs.jate.feature.ContainmentFBWorker  - Total terms to process=277
+2016-08-18 12:15:41 INFO  ContainmentFBWorker:49 - Total terms to process=277
+28415  2016-08-18 12:15:41,792 INFO  hef.dcs.jate.feature.ContainmentFBWorker  - Total terms to process=277
+28427  2016-08-18 12:15:41,804 INFO  hef.dcs.jate.feature.ContainmentFBWorker  - Total terms to process=277
+28415  2016-08-18 12:15:41,792 INFO  hef.dcs.jate.feature.ContainmentFBWorker  - Total terms to process=139
+28415  2016-08-18 12:15:41,792 INFO  hef.dcs.jate.feature.ContainmentFBWorker  - Total terms to process=277
+28451  2016-08-18 12:15:41,828 INFO  hef.dcs.jate.feature.ContainmentFBWorker  - Total terms to process=139
+28415  2016-08-18 12:15:41,792 INFO  hef.dcs.jate.feature.ContainmentFBWorker  - Total terms to process=277
+2016-08-18 12:15:41 INFO  ContainmentFBWorker:49 - Total terms to process=139
+2016-08-18 12:15:41 INFO  ContainmentFBWorker:49 - Total terms to process=277
+28455  2016-08-18 12:15:41,832 INFO  hef.dcs.jate.feature.ContainmentFBWorker  - Total terms to process=139
+2016-08-18 12:15:41 INFO  ContainmentFBWorker:49 - Total terms to process=139
+28463  2016-08-18 12:15:41,840 INFO  hef.dcs.jate.feature.ContainmentFBWorker  - Total terms to process=139
+2016-08-18 12:15:41 INFO  ContainmentFBWorker:49 - Total terms to process=277
+2016-08-18 12:15:41 INFO  ContainmentFBWorker:49 - Total terms to process=139
+2016-08-18 12:15:41 INFO  ContainmentFBWorker:49 - Total terms to process=277
+2016-08-18 12:15:41 INFO  ContainmentFBWorker:49 - Total terms to process=277
+2016-08-18 12:15:41 INFO  ContainmentFBWorker:49 - Total terms to process=139
+28475  2016-08-18 12:15:41,852 INFO  hef.dcs.jate.feature.ContainmentFBMaster  - Complete building features. Total=2218 success=2218
+2016-08-18 12:15:41 INFO  ContainmentFBMaster:51 - Complete building features. Total=2218 success=2218
+28539  2016-08-18 12:15:41,916 INFO      uk.ac.shef.dcs.jate.algorithm.CValue  - Beginning computing CValue, cores=4, total terms=2218, max terms per worker thread=554
+2016-08-18 12:15:41 INFO  CValue:39 - Beginning computing CValue, cores=4, total terms=2218, max terms per worker thread=554
+28551  2016-08-18 12:15:41,928 INFO      uk.ac.shef.dcs.jate.algorithm.CValue  - Complete
+2016-08-18 12:15:41 INFO  CValue:46 - Complete
+28555  2016-08-18 12:15:41,932 INFO         uk.ac.shef.dcs.jate.app.AppCValue  - Complete CValue term extraction.
+2016-08-18 12:15:41 INFO  AppCValue:109 - Complete CValue term extraction.
+28587  2016-08-18 12:15:41,964 INFO         uk.ac.shef.dcs.jate.app.AppCValue  - Exporting terms to [cvalue_both.json]
+2016-08-18 12:15:41 INFO  AppCValue:494 - Exporting terms to [cvalue_both.json]
+28655  2016-08-18 12:15:42,032 INFO         uk.ac.shef.dcs.jate.app.AppCValue  - complete.
+2016-08-18 12:15:42 INFO  AppCValue:498 - complete.
+0      2016-08-18 12:15:58,949 INFO         uk.ac.shef.dcs.jate.app.AppTermEx  - Indexing corpus from [C:\Users\gabriel.TRN\Downloads\jate-master\testdata\corpus] and perform candidate extraction ...
+2016-08-18 12:15:58 INFO  AppTermEx:328 - Indexing corpus from [C:\Users\gabriel.TRN\Downloads\jate-master\testdata\corpus] and perform candidate extraction ...
+78     2016-08-18 12:15:59,027 INFO         uk.ac.shef.dcs.jate.app.AppTermEx  -  [2] files are scanned and will be indexed and analysed.
+2016-08-18 12:15:59 INFO  AppTermEx:331 -  [2] files are scanned and will be indexed and analysed.
+0      2016-08-18 12:16:31,142 INFO        uk.ac.shef.dcs.jate.app.AppGlossEx  - Indexing corpus from [C:\Users\gabriel.TRN\Downloads\jate-master\testdata\corpus] and perform candidate extraction ...
+2016-08-18 12:16:31 INFO  AppGlossEx:328 - Indexing corpus from [C:\Users\gabriel.TRN\Downloads\jate-master\testdata\corpus] and perform candidate extraction ...
+78     2016-08-18 12:16:31,220 INFO        uk.ac.shef.dcs.jate.app.AppGlossEx  -  [2] files are scanned and will be indexed and analysed.
+2016-08-18 12:16:31 INFO  AppGlossEx:331 -  [2] files are scanned and will be indexed and analysed.
+7932   2016-08-18 12:16:39,074 WARN  he.lucene.analysis.jate.OpenNLPTokenizer  - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20449, invalid end=20460, termlength=8. See Issue 26 on JATE webpage
+2016-08-18 12:16:39 WARN  OpenNLPTokenizer:128 - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20449, invalid end=20460, termlength=8. See Issue 26 on JATE webpage
+7948   2016-08-18 12:16:39,090 WARN  he.lucene.analysis.jate.OpenNLPTokenizer  - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20685, invalid end=20696, termlength=8. See Issue 26 on JATE webpage
+2016-08-18 12:16:39 WARN  OpenNLPTokenizer:128 - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20685, invalid end=20696, termlength=8. See Issue 26 on JATE webpage
+10133  2016-08-18 12:16:41,275 WARN  he.lucene.analysis.jate.OpenNLPTokenizer  - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20449, invalid end=20460, termlength=8. See Issue 26 on JATE webpage
+2016-08-18 12:16:41 WARN  OpenNLPTokenizer:128 - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20449, invalid end=20460, termlength=8. See Issue 26 on JATE webpage
+10137  2016-08-18 12:16:41,279 WARN  he.lucene.analysis.jate.OpenNLPTokenizer  - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20685, invalid end=20696, termlength=8. See Issue 26 on JATE webpage
+2016-08-18 12:16:41 WARN  OpenNLPTokenizer:128 - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20685, invalid end=20696, termlength=8. See Issue 26 on JATE webpage
+19405  2016-08-18 12:16:50,547 INFO        uk.ac.shef.dcs.jate.app.AppGlossEx  - all corpus are indexed with term candidates.
+2016-08-18 12:16:50 INFO  AppGlossEx:347 - all corpus are indexed with term candidates.
+24055  2016-08-18 12:16:55,197 INFO        uk.ac.shef.dcs.jate.app.AppGlossEx  - start GlossEx term extraction for whole index ...
+2016-08-18 12:16:55 INFO  AppGlossEx:78 - start GlossEx term extraction for whole index ...
+25197  2016-08-18 12:16:56,339 INFO  .jate.feature.FrequencyTermBasedFBMaster  - Building features using cpu cores=8, total=2218, max per worker=277
+2016-08-18 12:16:56 INFO  FrequencyTermBasedFBMaster:55 - Building features using cpu cores=8, total=2218, max per worker=277
+25259  2016-08-18 12:16:56,401 INFO  .jate.feature.FrequencyTermBasedFBMaster  - Complete building features. Total=2218 success=2218
+2016-08-18 12:16:56 INFO  FrequencyTermBasedFBMaster:64 - Complete building features. Total=2218 success=2218
+25275  2016-08-18 12:16:56,417 INFO  .jate.feature.FrequencyTermBasedFBMaster  - Building features using cpu cores=8, total=1954, max per worker=244
+2016-08-18 12:16:56 INFO  FrequencyTermBasedFBMaster:55 - Building features using cpu cores=8, total=1954, max per worker=244
+25290  2016-08-18 12:16:56,432 INFO  .jate.feature.FrequencyTermBasedFBMaster  - Complete building features. Total=1954 success=1954
+2016-08-18 12:16:56 INFO  FrequencyTermBasedFBMaster:64 - Complete building features. Total=1954 success=1954
+26306  2016-08-18 12:16:57,448 INFO     uk.ac.shef.dcs.jate.algorithm.GlossEx  - Calculating GlossEx for 2218 candidate terms.
+2016-08-18 12:16:57 INFO  GlossEx:60 - Calculating GlossEx for 2218 candidate terms.
+26337  2016-08-18 12:16:57,479 INFO     uk.ac.shef.dcs.jate.algorithm.GlossEx  - Complete
+2016-08-18 12:16:57 INFO  GlossEx:92 - Complete
+26337  2016-08-18 12:16:57,479 INFO        uk.ac.shef.dcs.jate.app.AppGlossEx  - complete GlossEx term extraction.
+2016-08-18 12:16:57 INFO  AppGlossEx:111 - complete GlossEx term extraction.
+26400  2016-08-18 12:16:57,542 INFO        uk.ac.shef.dcs.jate.app.AppGlossEx  - Exporting terms to [glossex_both.json]
+2016-08-18 12:16:57 INFO  AppGlossEx:494 - Exporting terms to [glossex_both.json]
+26509  2016-08-18 12:16:57,651 INFO        uk.ac.shef.dcs.jate.app.AppGlossEx  - complete.
+2016-08-18 12:16:57 INFO  AppGlossEx:498 - complete.
+0      2016-08-18 12:17:32,854 INFO      uk.ac.shef.dcs.jate.app.AppWeirdness  - Indexing corpus from [C:\Users\gabriel.TRN\Downloads\jate-master\testdata\corpus] and perform candidate extraction ...
+2016-08-18 12:17:32 INFO  AppWeirdness:328 - Indexing corpus from [C:\Users\gabriel.TRN\Downloads\jate-master\testdata\corpus] and perform candidate extraction ...
+78     2016-08-18 12:17:32,932 INFO      uk.ac.shef.dcs.jate.app.AppWeirdness  -  [2] files are scanned and will be indexed and analysed.
+2016-08-18 12:17:32 INFO  AppWeirdness:331 -  [2] files are scanned and will be indexed and analysed.
+9288   2016-08-18 12:17:42,142 WARN  he.lucene.analysis.jate.OpenNLPTokenizer  - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20449, invalid end=20460, termlength=8. See Issue 26 on JATE webpage
+2016-08-18 12:17:42 WARN  OpenNLPTokenizer:128 - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20449, invalid end=20460, termlength=8. See Issue 26 on JATE webpage
+9308   2016-08-18 12:17:42,162 WARN  he.lucene.analysis.jate.OpenNLPTokenizer  - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20685, invalid end=20696, termlength=8. See Issue 26 on JATE webpage
+2016-08-18 12:17:42 WARN  OpenNLPTokenizer:128 - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20685, invalid end=20696, termlength=8. See Issue 26 on JATE webpage
+13036  2016-08-18 12:17:45,890 WARN  he.lucene.analysis.jate.OpenNLPTokenizer  - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20449, invalid end=20460, termlength=8. See Issue 26 on JATE webpage
+2016-08-18 12:17:45 WARN  OpenNLPTokenizer:128 - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20449, invalid end=20460, termlength=8. See Issue 26 on JATE webpage
+13039  2016-08-18 12:17:45,893 WARN  he.lucene.analysis.jate.OpenNLPTokenizer  - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20685, invalid end=20696, termlength=8. See Issue 26 on JATE webpage
+2016-08-18 12:17:45 WARN  OpenNLPTokenizer:128 - Invalid token start and end offsets diff greater than term length. End offset is reset to be start+tokenlength. start=20685, invalid end=20696, termlength=8. See Issue 26 on JATE webpage

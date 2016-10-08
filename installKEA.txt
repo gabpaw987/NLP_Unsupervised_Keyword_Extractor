@@ -1,0 +1,50 @@
+SET KEAHOME=C:\Users\gabriel.TRN\Downloads\kea-5.0_full
+SET CLASSPATH=$CLASSPATH:$KEAHOME
+SET CLASSPATH=$CLASSPATH:$KEAHOME/lib/commons-logging.jar
+SET CLASSPATH=$CLASSPATH:$KEAHOME/lib/icu4j_3_4.jar
+SET CLASSPATH=$CLASSPATH:$KEAHOME/lib/iri.jar
+SET CLASSPATH=$CLASSPATH:$KEAHOME/lib/jena.jar
+SET CLASSPATH=$CLASSPATH:$KEAHOME/lib/snowball.jar 
+SET CLASSPATH=$CLASSPATH:$KEAHOME/lib/weka.jar
+SET CLASSPATH=$CLASSPATH:$KEAHOME/lib/xercesImpl.jar
+SET CLASSPATH=$CLASSPATH:$KEAHOME/lib/kea-5.0.jar 
+
+javac TestKea
+java -Xmx526M TestKea
+
+
+java -Xmx1024m -jar maui-standalone-1.1-SNAPSHOT.jar train -l data/docs/fao_train/ -m data/models/keyword_extraction_model -v none -o 2
+
+
+
+all from email
+meaningcloud
+
+
+SET JAVA_HOME=C:\Program Files\Java\jdk1.8.0_101
+SET PATH=%PATH%;%JAVA_HOME%\bin
+
+java -cp C:/Users/gabriel.TRN/Downloads/jate-master/jate-2.0-beta.1-jar-with-dependencies.jar uk.ac.shef.dcs.jate.app.AppTFIDF -corpusDir C:/Users/gabriel.TRN/Downloads/jate-master/testdata/corpus -o tfidf-terms.json C:/Users/gabriel.TRN/Downloads/jate-master/testdata/solr-testbed ACLRDTEC
+C:\Users\gabriel.TRN\Downloads\textrank-master (1)\textrank-master>C:\Users\gabriel.TRN\Desktop\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\bin\ant -Ddata.file=C:/Users/gabriel.TRN/workspace/BugLocalization_IdentifySparkConcepts/SSGutf.txt run
+
+
+java -cp C:/Users/gabriel.TRN/Downloads/jate-master/jate-2.0-beta.1-jar-with-dependencies.jar uk.ac.shef.dcs.jate.app.AppTermEx -corpusDir C:/Users/gabriel.TRN/Downloads/jate-master/testdata/corpus -r C:/Users/gabriel.TRN/Downloads/jate-master/testdata/solr-testbed/ACLRDTEC/conf/bnc_unifrqs.normal -o termex-terms.json C:/Users/gabriel.TRN/Downloads/jate-master/testdata/solr-testbed ACLRDTEC
+
+
+java -cp C:/Users/gabriel.TRN/Downloads/jate-master/jate-2.0-beta.1-jar-with-dependencies.jar uk.ac.shef.dcs.jate.app.AppCValue -corpusDir C:/Users/gabriel.TRN/Downloads/jate-master/testdata/corpus -o cvalue-terms.json C:/Users/gabriel.TRN/Downloads/jate-master/testdata/solr-testbed ACLRDTEC
+
+
+
+
+Delete words common in many techniques such as Spark
+use ATTF or TTF for basic concepts - minus "spark", etc.
+weirdness/glossex could be cleaned to get technoogies and things like SparkContext
+chisquare for other basic concepts but more cleaning necessary
+tfidf/ridf more allrounder maybe use to verify others outputs?
+
+
+
+
+
+
+
